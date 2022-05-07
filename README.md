@@ -5,16 +5,3 @@ This is the source code for liver tumor segmentation with 3D CNN and Conv-LSTM m
 
 Data pre-processing for liver segmentation
 Run python3 Data_prepropcess.py
-
-2.Liver segmentation with 3D U-net model: 
-Run python3 Liver_seg_model.py
-
-3.Liver patch extraction:
-Run python3 Liver_patch_extraction.py
-
-4.Tumor patch extraction:
-Run python3 Tumor_patch_extraction.py
-
-5.Tumor segmentation with combined CNN and Conv-LSTM model:
-version (2D CNN + Conv-LSTM): Run python3 Tumor_seg_model_2DCT.py
-version (3D CNN + Conv-LSTM): Run python3 Tumor_seg_model_3DCT.py
