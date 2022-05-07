@@ -3,5 +3,11 @@ Automatic Liver Tumor Segmentation on Dynamic Contrast Enhanced MRI Using 4D Inf
 
 This is the source code for liver tumor segmentation with 3D CNN and Conv-LSTM model.
 
-Data pre-processing for liver segmentation.
+Data pre-processing for liver segmentation:
+
+Run python3 Data_prepropcess.py
+
+
+Data pre-processing for liver segmentation:
+
 Run python3 Data_prepropcess.py
