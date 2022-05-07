@@ -16,5 +16,6 @@ Tumor patch extraction:
 Run python3 Tumor_patch_extraction.py
 
 Tumor segmentation with combined CNN and Conv-LSTM model:
+
 2.5D version (2D CNN + Conv-LSTM): Run python3 Tumor_seg_model_2DCT.py
 3D version (3D CNN + Conv-LSTM): Run python3 Tumor_seg_model_3DCT.py
