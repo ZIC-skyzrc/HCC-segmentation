@@ -3,18 +3,18 @@ Automatic Liver Tumor Segmentation on Dynamic Contrast Enhanced MRI Using 4D Inf
 
 This is the source code for liver tumor segmentation with 3D CNN and Conv-LSTM model.
 
-1. Data pre-processing for liver segmentation: 
+1.Data pre-processing for liver segmentation: 
 Run python3 Data_prepropcess.py
 
-2. Liver segmentation with 3D U-net model: 
+2.Liver segmentation with 3D U-net model: 
 Run python3 Liver_seg_model.py
 
-3. Liver patch extraction:
+3.Liver patch extraction:
 Run python3 Liver_patch_extraction.py
 
-4. Tumor patch extraction:
+4.Tumor patch extraction:
 Run python3 Tumor_patch_extraction.py
 
-5. Tumor segmentation with combined CNN and Conv-LSTM model:
-2.5D version (2D CNN + Conv-LSTM): Run python3 Tumor_seg_model_2DCT.py
-3D version (3D CNN + Conv-LSTM): Run python3 Tumor_seg_model_3DCT.py
+5.Tumor segmentation with combined CNN and Conv-LSTM model:
+version (2D CNN + Conv-LSTM): Run python3 Tumor_seg_model_2DCT.py
+version (3D CNN + Conv-LSTM): Run python3 Tumor_seg_model_3DCT.py
